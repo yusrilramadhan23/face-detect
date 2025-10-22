@@ -107,7 +107,7 @@ export async function anylizeAction(prevState, formData) {
 
     if(!res.ok) {
         const t = res.text()
-        console.errror("ERROR: ", res.status, t)
+        console.error("ERROR: ", res.status, t)
         return {
             ok: false,
             html: 
